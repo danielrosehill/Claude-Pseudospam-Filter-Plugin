@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "pseudospam-filter",
+  "version": "0.1.1",
+  "description": "A second spam filter for pseudospam: outreach produced at scale and dressed up as personal. Parallel Haiku judges classify unsolicited mail against a published standard plus your own Gmail example labels; caught mail goes to a review queue label, genuine mail gets prioritised into a reply queue, and corrections feed back as examples. Also: sample capture, sender blocks, unsubscribe replies, tracking-pixel detection and DNS blocklists.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin",
+  "repository": "https://github.com/danielrosehill/Claude-Pseudospam-Filter-Plugin",
+  "keywords": ["spam", "pseudospam", "cold-outreach", "email", "gmail", "classifier", "tracking-pixels", "privacy"]
+}

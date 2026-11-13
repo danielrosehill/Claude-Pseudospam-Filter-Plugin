@@ -1,0 +1,28 @@
+{
+  "account": "you@example.com",
+  "mcp_hint": "Name of the Gmail MCP server/tools to use, e.g. google-workspace",
+  "labels": {
+    "caught": "Pseudospam/Caught",
+    "passed": "Pseudospam/Passed",
+    "unsure": "Pseudospam/Unsure",
+    "example_pseudospam": "Pseudospam/Examples/Pseudospam",
+    "example_genuine": "Pseudospam/Examples/Genuine",
+    "example_unsure": "Pseudospam/Examples/Unsure",
+    "blocked": "Pseudospam/Blocked"
+  },
+  "on_caught": "label_archive",
+  "min_confidence": 0.8,
+  "sweep_window": "newer_than:30d",
+  "profile": {
+    "who": "One or two sentences on who you are and what you publish (site, repos, podcast...).",
+    "public_addresses": ["contact@example.com"],
+    "platform_only_addresses": ["payments-alias@example.com"],
+    "niches": ["topics where a peer reaching out is high priority"],
+    "priority_order": [
+      "paid work or paid offers that fit your work",
+      "peer builders in your niches; real corrections and bug reports",
+      "reasonable unpaid asks from individuals",
+      "templated pitches, drips, mass mail (lowest)"
+    ]
+  }
+}

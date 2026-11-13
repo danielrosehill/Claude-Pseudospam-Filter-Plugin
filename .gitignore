@@ -1,0 +1,13 @@
+# Python venvs / build artifacts
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Local user state — user's corpus does NOT live in this repo
+# (corpus path is configured per-machine via setup)
